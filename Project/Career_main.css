@@ -1,0 +1,29 @@
+			 .wrap {
+			     height: 1080px;
+			 }
+			 .Main{/*width="1280"*/
+			    display: inline;
+			    position: absolute;
+				left: 0px;
+			    top: 500px;
+			    width: 1920px;
+			    min-height: 100%;
+			}
+				#Theme{
+				    display: inline;
+				    position: absolute;
+				    left: 700px;
+			   		top: 150px;
+				}
+				#Content{
+				    display: inline;
+				    position: absolute;
+				    left: 700px;
+			   		top: 250px;
+				}
+				#Content_pic{
+				    display: inline;
+				    position: absolute;
+				    left: 350px;
+			   		top: 450px;
+				}

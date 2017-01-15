@@ -1,0 +1,163 @@
+﻿			.all {
+			   -moz-user-select: -moz-none;
+			   -khtml-user-select: none;
+			   -webkit-user-select: none;
+			   -ms-user-select: none;
+			   user-select: none;
+			}
+
+
+			 .wrap {
+			     height: 1080px;
+			 }
+			 .Main{/*width="1280"*/
+			    display: inline;
+			    position: absolute;
+				left: 0px;
+			    top: 500px;
+			}
+				#Theme{
+				    display: inline;
+				    position: absolute;
+				    left: 700px;
+			   		top: 150px;
+			    	z-index : 1;
+				}
+					#選択{
+						white-space : nowrap;
+						position:absolute;
+						width:640px;
+						left:-200px;
+						top:0px;
+					}
+					#sce00{
+						position:absolute;
+						left:0px;
+						top:75px;
+						opacity:0.75;
+					}
+					#sce01{
+						position:absolute;
+						left:0px;
+						top:150px;
+						opacity:0.75;
+					}
+				#background_image{
+				    display: inline;
+				    position: absolute;
+				    left: 200px;
+			   		top: 150px;
+				}
+				#deliverbtn{
+				    display: inline;
+				    position: absolute;
+				    left: 15px;
+			   		top: 180px;
+					opacity:0.75;
+				}
+			.A{
+				position:absolute;
+				width:240px;
+				height:240px;
+				top:100px;
+				left:1520px;
+					
+			}
+				#SaveBlock{						
+					position:absolute;
+					left:0px;
+					top:240px;save
+				}
+				#save{
+					opacity:0.75;
+				}
+				#ID{
+					white-space : nowrap;
+					}
+					
+					
+			.SelectSave{
+				position:absolute;
+				left:200px;
+				top:150px;
+				opacity=0.5;
+				z-index : 3;
+			}
+					
+			.B{
+				position:absolute;
+				width:1280px;
+				height:160px;
+				left:200px;
+				top:710px;
+				opacity=0.5;
+				z-index : 3;
+				}
+				#dia0{
+						
+					position:absolute;
+					left:50px;
+					top:80px;
+				}
+				#dia1{
+						
+					position:absolute;
+					left:920px;
+					top:70px;
+				}
+				#dia2{
+						
+					position:absolute;
+					left:920px;
+					top:125px;
+				}
+				#dia3{
+					position:absolute;
+					left:920px;
+					top:180px;
+				}
+				#TxtframeDiv{
+					position:absolute;
+					left:-10px;
+					top:0px;
+				}
+				#CharName{
+					position:absolute;
+					left:40px;
+					top: -10px;
+				}
+				#character{
+					position:absolute;
+					left:870px;
+					top: -290px;
+				}
+			.C{
+				position:absolute;
+				width:240px;
+				height:240px;
+				top:240px;
+				left:1200px;
+					
+				}
+				
+			.E{
+				position:absolute;
+				width:240px;
+				height:240px;
+				top:100px;
+				left:240px;
+					
+				}
+				#LoveScore{
+					
+					position:absolute;
+					left:1280px;
+					top:140px;
+				}
+				
+			 .EventGame{/*width="1280"*/
+			    display: inline;
+			    position: absolute;
+				left: 100px;
+			    top: 0px;
+			}

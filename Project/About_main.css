@@ -1,0 +1,50 @@
+			 .wrap {
+			     height: 1080px;
+			 }
+			 .MAIN{/*width="1280"*/
+			    overflow: auto;
+			    padding-bottom: 100px;
+			    width: 1920px;
+			}
+				#Theme{
+				    display: inline;
+				    position: absolute;
+				    left: 700px;
+			   		top: 150px;
+				}
+				#mem0{
+				    display: inline;
+				    position: absolute;
+				    left: 620px;
+				    top: 250px;
+				}
+				#mem1-4{
+				    display: inline;
+				    position: absolute;
+				    left: 600px;
+				    top: 500px;
+				}
+				#mem1{
+				    display: inline;
+				    position: absolute;
+				    left: 0px;
+				    top: 0px;
+				}
+				#mem2{
+				    display: inline;
+				    position: absolute;
+				    left: 0px;
+				    top: 300px;
+				}
+				#mem3{
+				    display: inline;
+				    position: absolute;
+				    left: 300px;
+				    top: 0px;
+				}
+				#mem4{
+				    display: inline;
+				    position: absolute;
+				    left: 300px;
+				    top: 300px;
+				}

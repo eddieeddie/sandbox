@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang = "jp">
+  <head>
+	<meta charset="utf-8">
+	<title>ご案内は彼女ですか？？</title>
+	<style>
+		@import url(HeadTail.css);
+		@import url(index_main.css);
+	</style>
+	</meta>
+	<script src="stringtable.js"></script>
+	<script src="cookie.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<script src="LangChange.js"></script>
+	<script src="chatRoom.js"></script>
+  </head>
+  <body>
+    <div class="all">
+	    <div class="HEAD">
+	    	<div id = "Headbg"><img src="index/pic/Headbg.png" width="1920" height="100"   alt="Contract_txt"></div>
+			    <div class="Copyright">
+				    <a href="index.html">
+				      	<div id="Copyright_pic"><img src="index/pic/Copyright_pic.png" width="100" height="100"   alt="Copyright_pic"></div>
+				      	<div id="Copyright_txt"><img id="Copyright_txt_img" src="index/pic/Copyright_txt.png" width="200" height="100"   alt="Copyright_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Register">
+				    <a href="Register.html">
+				      	<div id="Register_pic"><img src="index/pic/Register_pic.png" width="100" height="100"   alt="Register_pic"></div>
+				      	<div id="Register_txt"><img id="Register_txt_img" src="index/pic/Register_txt.png" width="200" height="100"   alt="Register_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Shop">
+				    <a href="Shop.html">
+				      	<div id="Shop_pic"><img src="index/pic/Shop_pic.png" width="100" height="100"   alt="Shop_pic"></div>
+				      	<div id="Shop_txt"><img id="Shop_txt_img" src="index/pic/Shop_txt.png" width="200" height="100"   alt="Shop_txt"></div>
+				    </a>
+			    </div>
+		    <div class="Lang">
+			    <a href="">
+			      	<div id="CHT"><img id="CHT_p" src="index/pic/CHT.png" width="100" height="100"   alt="CHT"></div>
+			      	<div id="JPN"><img id="JPN_p" src="index/pic/JPN.png" width="100" height="100"   alt="JPN"></div>
+			    </a>
+		    </div>
+	    </div>
+		<div class ="wrap">
+		    <div class="GAME">
+		    	<div>
+			   		<img id = "LOGO" src="index/pic/LOGO.png"  width="480" height="270"   alt="">
+			    </div>
+		    	<div id="Txt">
+					<b><font size="7" color="#808BB6" id="01" face="微軟正黑體">発売予定日：近日発売！</font></b>
+			    </div>
+		    	<div id="Game_cover">
+			   		<a href=""><img src="index/pic/Game_cover.png"  width="1024" height="576"   alt="Game_cover"></a>
+			    </div>
+	   			<div id="占い">
+		    		<div>
+			      		<img id="占い結果" src="" width="320" height="180"  alt="coffee_cup">
+			      	</div>
+		    		<div>
+			      		<img id="占い結果文字" src="" width="240" height="160"  alt="coffee_cup">
+			      	</div>
+		    		<div id="カップ">
+			      		<img src="index/pic/coffee_cup.png" width="290" height="290"   alt="coffee_cup">
+			      	</div>
+				</div>
+		    	<div id="Play">
+			   		<a href="Game.html"><img id="play_btn" src="index/pic/Play_ready.png"  width="300" height="300"   alt="Play_ready"></a>
+			    </div>
+		    	<div id="Register">
+			   		<a href="Register.html"><img id="reg_btn" src="index/pic/Register_ready.png"  width="300" height="300"   alt="Register_ready"></a>
+			    </div>
+				<div id="Like">
+	    			<font size="5" color="#808BB6" id="02" face="微軟正黑體"><br>貴方も好きですか？クリックしてね<br><br></font>
+			    	<div id="拍手"><img id="拍手数図" src="index/pic/拍手.jpg" width ="64" height="64" alt="cover"></div>
+			    	<div id="拍手数"></div>
+			    	<font size="5" color="#808BB6" face="微軟正黑體"><br>　　　　　　　　拍手<br><br></font>
+			    </div>
+		    </div>
+		    <div class="INFO">
+		    	<div id = "TXT_ゲーム紹介">
+					<b><font size="7" color="#808BB6" id="03" face="微軟正黑體">　　　このゲームについて</font></b>
+			    </div>
+			    <div id = "INFO1"><img src="index/pic/INFO1.jpg"  width="" height=""   alt="INFO"></div>
+		    	<div id = "TXT_キャラ紹介">
+					<b><font size="7" color="#808BB6" id="04" face="微軟正黑體">　　　　　キャラ紹介</font></b>
+			    </div>
+			    <div id = "INFO2"><img src="index/pic/INFO2.jpg"  width="" height=""   alt="INFO"></div>
+		    </div>
+	   		<div class="CHATROOM">
+	   			<b><font size="7" color="#808BB6" id="05" face="微軟正黑體"><br>チャットルーム<br></font></b>
+	      		<img id="note_chat" src="index/pic/note_chat.png" width ="0" height="0" alt="cover">
+	      		<img id="note_kokoa" src="index/pic/kokoa.gif" width ="276" height="509" alt="cover">
+			    <div id="contents"></div>
+			    <div id="deliver">
+				    <input id="reply" type="text"></input>
+				    <button>転送！！</button>
+			    </div>
+	    		<div id="dia">
+		      		<img  src="index/pic/cocoa_dia_1.png" width="160" height="460" alt="chino_1">
+		      	</div>
+	      	</div>
+		    <div class="GAME_TAIL">
+		    	<div id="Txt_TAIL">
+					<b><font size="7" color="#808BB6" id="06" face="微軟正黑體">さあー早く遊びましょう！！</font></b>
+			    </div>
+		    	<div id="Game_cover_TAIL">
+			   		<a href=""><img src="index/pic/Game_cover.png"  width="1024" height="576"   alt="Game_cover"></a>
+			    </div>
+		    	<div id="Play_TAIL">
+			   		<a href="Game.html"><img id="play_btn2" src="index/pic/Play_ready.png"  width="300" height="300"   alt="Play_ready"></a>
+			    </div>
+		    	<div id="Register_TAIL">
+			   		<a href="Register.html"><img id="reg_btn2" src="index/pic/Register_ready.png"  width="300" height="300"   alt="Register_ready"></a>
+			    </div>
+		    </div>
+	    </div>
+	    <div class="TAIL">
+	    	<div id = "Tailbg"><img src="index/pic/Headbg.png" width="1920" height="100"   alt="Contract_txt"></div>
+	    	<div class="About">
+			      	<a href="About.html"><img src="index/pic/About_pic.png" width="100" height="100"   alt="About_pic"></a>
+			      	<a href="About.html"><img id="About_txt_img" src="index/pic/About_txt.png" width="200" height="100"   alt="About_txt"></a>
+			    </a>
+		    </div>
+		    <div class="Contract">
+			      	<a href="Contract.html"><img src="index/pic/Contract_pic.png" width="100" height="100"   alt="Contract_pic"></a>
+			      	<a href="Contract.html"><img id="Contract_txt_img" src="index/pic/Contract_txt.png" width="200" height="100"   alt="Contract_txt"></a>
+			    </a>
+		    </div>
+		    <div class="Help">
+			      	<a href="Help.html"><img src="index/pic/Help_pic.png" width="100" height="100"   alt="Help_pic"></a>
+			      	<a href="Help.html"><img id="Help_txt_img" src="index/pic/Help_txt.png" width="200" height="100"   alt="Help_txt"></a>
+			    </a>
+		    </div>
+		    <div class="Career">
+			    <a href="Career.html"><img src="index/pic/Career_pic.png" width="100" height="100"   alt="Career_pic"></a>
+			    <a href="Career.html"><img id="Career_txt_img" src="index/pic/Career_txt.png" width="200" height="100"   alt="Career_txt"></a>
+		    </div>
+	    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang = "jp">
+	<head>
+	<meta charset="utf-8">
+	<title>ご案内は彼女ですか？？</title>
+		<style>
+			@import url(HeadTail.css);
+			@import url(Game_main.css);
+		</style>
+	</meta>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="jquery.color.min.js"></script>
+	<script src="game_showhide_controller.js"></script>
+	<script src="stringtable.js"></script>
+	<script src="cookie.js"></script>
+	<script src="LangChange.js"></script>
+	<script src="GameEvent_Race.js"></script>
+	<script src="GameEvent_Flip.js"></script>
+	<script src="GameEvent.js"></script>
+	<script src="GameEffect.js"></script>
+	<script src="Game_Global_Variable.js"></script>
+	<script src="game.js"></script>
+	<script src="game_login.js"></script>
+	</head>
+	<body>
+	    <div class="all">
+		    <div class="HEAD">
+		    	<div id = "Headbg"><img src="index/pic/Headbg.png" width="1920" height="100"   alt="Contract_txt"></div>
+			    <div class="Copyright">
+				    <a href="index.html">
+				      	<div id="Copyright_pic"><img src="index/pic/Copyright_pic.png" width="100" height="100"   alt="Copyright_pic"></div>
+				      	<div id="Copyright_txt"><img id="Copyright_txt_img" src="index/pic/Copyright_txt.png" width="200" height="100"   alt="Copyright_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Register">
+				    <a href="Register.html">
+				      	<div id="Register_pic"><img src="index/pic/Register_pic.png" width="100" height="100"   alt="Register_pic"></div>
+				      	<div id="Register_txt"><img id="Register_txt_img" src="index/pic/Register_txt.png" width="200" height="100"   alt="Register_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Shop">
+				    <a href="Shop.html">
+				      	<div id="Shop_pic"><img src="index/pic/Shop_pic.png" width="100" height="100"   alt="Shop_pic"></div>
+				      	<div id="Shop_txt"><img id="Shop_txt_img" src="index/pic/Shop_txt.png" width="200" height="100"   alt="Shop_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Lang">
+				    <a href="">
+				      	<div id="CHT"><img id="CHT_p" src="index/pic/CHT.png" width="100" height="100"   alt="CHT"></div>
+				      	<div id="JPN"><img id="JPN_p" src="index/pic/JPN.png" width="100" height="100"   alt="JPN"></div>
+				    </a>
+			    </div>
+		    </div>
+			
+			
+			<div class ="D">
+				<div><img id="background_image" src="Game/BG_dummy.png" width="1280" height="720"   alt="background"></div>
+			</div>
+			<div class ="C"></div>
+			<div class ="A">
+				<div id ="SaveBlock">
+					<font size="5" color="#ff9966"><p id="ID" face="微軟正黑體"></p></font>
+					<font size="5" color="#ff99cc"><p id="Love" face="微軟正黑體"></p></font>
+					<img id="save" src="Game/saveBtnNormal.png" width="" height=""   alt="">
+				</div>
+			</div>
+			<div class ="B">
+				<div>
+					<img id="character" src="" width="" height=""   alt="background">
+				</div>
+				<div id ="TxtframeDiv">
+					<div><img id="Txtframe" src="Game/Txtframe_dummy.png" width="" height=""   alt=""></div>
+				</div>
+				<div id ="dia0">
+					<font size="6" color="#FFFFFF"id="diastring0Font" face="微軟正黑體"><p id="diaContent"></p></font>
+					<div><img id="CurrentDia" src="" width="" height=""   alt=""></div>
+				</div>
+				<div id ="dia1">
+					<font size="6" color="#8EFFC1"id="diastring1Font" face="微軟正黑體"><p id="diastring1"></p></font>
+					<div><img id="NextDia1" src="" width="" height=""   alt=""></div>
+				</div>
+				<div id ="dia2">
+					<font size="6" color="#8EFFC1"id="diastring2Font" face="微軟正黑體"><p id="diastring2"></p></font>
+					<div><img id="NextDia2" src="" width="" height=""   alt=""></div>
+				</div>
+				<div id ="dia3">
+					<font size="6" color="#8EFFC1"id="diastring3Font" face="微軟正黑體"><p id="diastring3"></p></font>
+					<div><img id="NextDia3" src="" width="" height=""   alt=""></div>
+				</div>
+				<div>
+					<font size="5" color="#FF3CDE" face="微軟正黑體"><p id = "CharName"></p></font>
+				</div>
+			</div>
+			<div class ="SelectSave">
+			</div>
+			<div class ="E">
+				<div id ="LoveScore">
+				</div>
+			</div>	   									
+			
+			<div class ="EventGame">
+			</div>
+			
+			
+			
+			
+			<div class ="wrap">
+			    <div class ="MAIN">
+				    <div id ="Theme">
+						<b><font size="7" color="#808BB6" id="Title" face="微軟正黑體">ログイン</b></font></b>
+						<b><div id="アカウントdiv"><font size="3" color="#808BB6" id="accountWord" face="微軟正黑體"><br>アカウント</font></b><input type="text" id="account"></input></div>
+						<b><div id="パスワードdiv"><font size="3" color="#808BB6" id="passwdWord" face="微軟正黑體"><br>パスワード</font></b><input type="password" id="passwd"></input></div>
+						
+						<b><font size="7" color="#808BB6" id="選択" face="微軟正黑體">シナリオを選択してくださいね</font></b>
+						<div id="sce00div"><img id="sce00" src="Game/SelectScenario/Sce00Normal.png" width="" height=""   alt=""></div><br><br>
+						<div id="sce01div"><img id="sce01" src="Game/SelectScenario/Sce01Normal.png" width="" height=""   alt=""></div><br><br>
+						<div id="sce02div"><img id="sce02" src="Game/SelectScenario/Sce02Normal.png" width="" height=""   alt=""></div><br><br>
+						<div id="sce03div"><img id="sce03" src="Game/SelectScenario/Sce03Normal.png" width="" height=""   alt=""></div>
+						<br><img id="deliverbtn" src="Game/LoginBtnNormal.png" width="" height=""   alt="">
+					</div>										
+			    </div>
+		    </div>
+		    
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+		    <div class="TAIL">
+		    	<div id = "Tailbg"><img src="index/pic/Headbg.png" width="1920" height="100"   alt="Contract_txt"></div>
+		    	<div class="About">
+				      	<a href="About.html"><img src="index/pic/About_pic.png" width="100" height="100"   alt="About_pic"></a>
+				      	<a href="About.html"><img id="About_txt_img" src="index/pic/About_txt.png" width="200" height="100"   alt="About_txt"></a>
+				    </a>
+			    </div>
+			    <div class="Contract">
+				      	<a href="Contract.html"><img src="index/pic/Contract_pic.png" width="100" height="100"   alt="Contract_pic"></a>
+				      	<a href="Contract.html"><img id="Contract_txt_img" src="index/pic/Contract_txt.png" width="200" height="100"   alt="Contract_txt"></a>
+				    </a>
+			    </div>
+			    <div class="Help">
+				      	<a href="Help.html"><img src="index/pic/Help_pic.png" width="100" height="100"   alt="Help_pic"></a>
+				      	<a href="Help.html"><img id="Help_txt_img" src="index/pic/Help_txt.png" width="200" height="100"   alt="Help_txt"></a>
+				    </a>
+			    </div>
+			    <div class="Career">
+				    <a href="Career.html"><img src="index/pic/Career_pic.png" width="100" height="100"   alt="Career_pic"></a>
+				    <a href="Career.html"><img id="Career_txt_img" src="index/pic/Career_txt.png" width="200" height="100"   alt="Career_txt"></a>
+			    </div>
+		    </div>
+		</div>
+	
+	</body>
+</html>

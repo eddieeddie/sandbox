@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang = "jp">
+  <head>
+	<meta charset="utf-8">
+  	<title>神奈川の基本資料</title>
+    <style>
+	    body {
+	    background-image: url("../chino/machi_bg.jpg");
+		}
+		.all{ 
+		      position: absolute;
+	    	  left: 20%;
+		}
+	    .bg { 
+		      position: absolute;
+	    	  left: 130px;
+	    	  top: 50px;
+		}
+	    #chino_p1 {
+	      position: absolute;
+    	  left: 300px;
+    	  top: 660px;
+	    }
+	    #chino_p2 {
+	      opacity: 0.4;
+	      display: inline;
+	      position: absolute;
+    	  left: 400px;
+    	  top: 660px;
+	    }
+	    #chino_p3 {
+	      opacity: 0.4;
+	      display: inline;
+	      position: absolute;
+    	  left: 500px;
+    	  top: 660px;
+	    }
+	    #chino_p4 {
+	      opacity: 0.4;
+	      display: inline;
+	      position: absolute;
+    	  left: 600px;
+    	  top: 660px;
+	    }
+	    #go_home {
+	      opacity: 0.4;
+	      display: inline;
+	      position: absolute;
+    	  left: 680px;
+    	  top: 690px;
+	    }
+	    .article {
+	      display: inline;
+	      position: absolute;
+    	  left: 296px;
+    	  top: 100px;
+	    }
+	    .Bigpic {
+	      display: inline;
+	      position: absolute;
+    	  left: 500px;
+    	  top: 100px;
+	    }
+	    #chino_p1:hover,#chino_p2:hover,#chino_p3:hover,#chino_p4:hover,#go_home:hover{
+	    opacity: 1;
+	    }
+	    #dia{
+	      opacity: 0;
+	      display: inline;
+	      position: absolute;
+    	  left: 660px;
+    	  top: 80px;
+	    }
+	    #wel_pic {
+	      position: absolute;
+    	  left: -500px;
+    	  top: -100px;
+	    }
+    </style>
+	</meta>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="p1_dialogue.js"></script>
+	<script src="p1_welcome.js"></script>
+  </head>
+  <body onload = "welcome()">
+    <div class="all">
+	    <div class="bg">
+	    	<img src="../chino/note.png" width="720" height="720" alt="bg">
+	    </div>
+	    <div class="main">
+	      	<nav>
+			    <div class="article">
+			    	<pre><font face="微軟正黑體">
+<font size="6" color="#808BB6"><b> かながわ</b></font>
+<font size="7" color="#808BB6"><b>神奈川</b></font>
+<font size="4">
+クラスは：
+4年A組
+
+年齢は：
+21歳の大学4年生
+
+趣味：
+黒髪
+
+
+声は：
+無口です
+</font></font></pre>
+			    </div>
+			    <div class="Bigpic">
+			    	<img src="portrait_1.jpg" width ="200" height="200" alt="bb">
+			    </div>
+	    		<div id="dia">
+		      		<img  src="../chino/dialogue/1_1.png" width="160" height="460" alt="chino_1">
+		      	</div>
+	      	</nav>
+	    </div>
+	    <div class="chino">
+	    	<nav>
+	    		<div id="chino_p1">
+		      		<a href=""><img src="../chino/chino_1.png" width="50" height="50" alt="chino_1"></a>
+		      	</div>
+	    		<div id="chino_p2">
+		      		<a href=""><img src="../chino/chino_2.png" width="50" height="50" alt="chino_1"></a>
+		      	</div>
+	    		<div id="chino_p3">
+		      		<a href=""><img src="../chino/chino_3.png" width="50" height="50" alt="chino_1"></a>
+		      	</div>
+	    		<div id="chino_p4">
+		      		<a href=""><img src="../chino/chino_4.png" width="50" height="50" alt="chino_1"></a>
+		      	</div>
+	    		<div id="go_home">
+		      		<a href="../../About.html"><img src="../chino/home.png" width="50" height="50" alt="chino_1"></a>
+		      	</div>
+	      	</nav>
+	    </div>
+	    <div id="wel_pic">
+	    	<img src="welcome.jpg" alt="bg">
+	    </div>
+	    <audio id="welcom_voice" width="0" height="0">
+		  	<source src="welcome.mp3" type="audio/mp3">
+		</audio>
+    <div class="all">
+  </body>
+</html>

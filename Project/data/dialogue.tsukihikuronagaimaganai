@@ -1,0 +1,319 @@
+{
+ "00_01_01":{"Content":"早安，請問是新生嗎？","Bg":"BG\/EEdoor.jpg","Character":"character\/yuzuko\/normal_01.png","CharacterName":"野野原ゆずこ","BGM":"BGM\/Spring Flowers.mp3","Sound":"sound\/yukari_ohayou.mp3","Effect":"","Event":"AddLove|5","Next":{"Next1":{"ID":"00_02_01","Txt":"學姐早安"},"Next2":{"ID":"00_02_02","Txt":"(沉默不語)"}}}
+,"00_02_01":{"Content":"想去哪邊呢","Bg":"BG\/3.jpg","Character":"character\/yuzuko\/normal_01.png","CharacterName":"野野原ゆずこ","BGM":"BGM\/Spring Flowers.mp3","Sound":"NONE","Effect":"","Event":"","Next":{"Next1":{"ID":"00_03_01","Txt":"想去廁所"}}}
+,"00_02_02":{"Content":"居然不理學姐，好難過！！","Bg":"BG\/3.jpg","Character":"character\/yuzuko\/sad_01.png","CharacterName":"野野原ゆずこ","BGM":"BGM\/Yokan.mp3","Sound":"NONE","Effect":"screenshake","Event":"AddLove|-10","Next":{"Next1":{"ID":"00_02_01","Txt":"學姐對不起！"}}}
+,"00_03_01":{"Content":"笨蛋嗎？廁所不在那邊...","Bg":"BG\/9.jpg","Character":"character\/yui\/angry_01.png","CharacterName":"櫟井唯","BGM":"BGM\/TekiPaki (Yui's Theme).mp3","Sound":"NONE","Effect":"","Event":"AddLove|5","Next":{"Next1":{"ID":"00_04_01","Txt":"那個...學姐早安"}}}
+,"00_04_01":{"Content":"啊哈哈哈，記錯地方了 ","Bg":"BG\/9.jpg","Character":"character\/yuzuko\/normal_01.png","CharacterName":"野野原ゆずこ","BGM":"BGM\/17. PoyoPoyo (Yuzuko's Theme).mp3","Sound":"NONE","Effect":"","Event":"AddLove|5","Next":{"Next1":{"ID":"00_05_01","Txt":"向廁所前進！"}}}
+,"00_05_01":{"Content":"DEMO就到這邊，剩下記得進商城購買唷 ","Bg":"BG\/23.jpg","Character":"character\/yukari\/normal_01.png","CharacterName":"日向縁","BGM":"BGM\/30. FuwaFuwa (Yukari's Theme).mp3","Sound":"NONE","Effect":"","Event":"AddLove|100","Next":{"Next1":{"ID":"EXIT","Txt":"感謝試玩！"},"Next2":{"ID":"00_01_01","Txt":"再玩一次！"}}}
+
+,"01_01_01":{"Content":"「努力看書，以後上國中就輕鬆了!」---母親云。","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_01_02","Txt":"CONTINUE"}}}
+,"01_01_02":{"Content":"「認真讀書，未來念高中就輕鬆了!」---父親云。","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_01_03","Txt":"CONTINUE"}}}
+,"01_01_03":{"Content":"「用功念書，考個好大學就輕鬆了!」---父母如是說道。","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_01","Txt":"CONTINUE"}}}
+
+,"01_02_01":{"Content":"該不會接下來要說找個好工作就輕鬆了吧!","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_02","Txt":"CONTINUE"}}}
+,"01_02_02":{"Content":"想起這些欺騙小孩的話我不禁感嘆","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_03","Txt":"CONTINUE"}}}
+,"01_02_03":{"Content":"我當初竟然真的相信這些","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_04","Txt":"CONTINUE"}}}
+,"01_02_04":{"Content":"步行於成功登大人活動的路上","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_05","Txt":"CONTINUE"}}}
+,"01_02_05":{"Content":"回憶前幾天新生茶會時","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_06","Txt":"CONTINUE"}}}
+,"01_02_06":{"Content":"學長們對我們小新生訴說電機生活的苦難","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_07","Txt":"CONTINUE"}}}
+,"01_02_07":{"Content":"除了要接受三電一工的洗禮","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_08","Txt":"CONTINUE"}}}
+,"01_02_08":{"Content":"還有其他選修及通識的課程要兼顧","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_09","Txt":"CONTINUE"}}}
+,"01_02_09":{"Content":"聽學長們說的緊湊課業使我們頭皮發麻","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_02_10","Txt":"CONTINUE"}}}
+,"01_02_10":{"Content":"不行，我得好好享受大一生活才可以","Bg":"BG\/12.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Have some tea.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_01","Txt":"CONTINUE"}}}
+
+,"01_03_01":{"Content":"振奮精神後，我找到我們班的位置後坐下來","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"flash","Next":{"Next1":{"ID":"01_03_02","Txt":"CONTINUE"}}}
+,"01_03_02":{"Content":"剛好遇到熟人，要不要坐她旁邊呢?","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_03","Txt":"坐她旁邊"}}}
+,"01_03_03":{"Content":"嗨，還真是巧阿，honey，沒想到你會主動坐我旁邊","Bg":"BG\/13.jpg","Character":"character\/rin\/4.png","CharacterName":"遠坂凜","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Event":"AddLove|5","Next":{"Next1":{"ID":"01_03_04","Txt":"CONTINUE"}}}
+,"01_03_04":{"Content":"你終於願意和我再一起了嗎?","Bg":"BG\/13.jpg","Character":"character\/rin\/4.png","CharacterName":"遠坂凜","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_05","Txt":"CONTINUE"}}}
+,"01_03_05":{"Content":"才不是勒，凜，只是同班人中我跟你比較熟而已!","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_06","Txt":"CONTINUE"}}}
+,"01_03_06":{"Content":"只是’比較’嗎? ","Bg":"BG\/13.jpg","Character":"character\/rin\/2.png","CharacterName":"遠坂凜","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_07","Txt":"CONTINUE"}}}
+,"01_03_07":{"Content":"明明從幼稚園到大學都讀同一所的說~","Bg":"BG\/13.jpg","Character":"character\/rin\/2.png","CharacterName":"遠坂凜","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_08","Txt":"CONTINUE"}}}
+,"01_03_08":{"Content":"她露出小惡魔般的微笑說著","Bg":"BG\/13.jpg","Character":"character\/rin\/2.png","CharacterName":"遠坂凜","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_09","Txt":"CONTINUE"}}}
+,"01_03_09":{"Content":"她的名子叫遠坂凜，的確如她所說的，","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_10","Txt":"CONTINUE"}}}
+,"01_03_10":{"Content":"我們兩人從幼稚園開始便一直讀同一所學校","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_11","Txt":"CONTINUE"}}}
+,"01_03_11":{"Content":"所以她算是我的青梅竹馬","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_12","Txt":"CONTINUE"}}}
+,"01_03_12":{"Content":"小時候我拿樹枝把欺負她的狗趕跑後她就時常黏著我","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_13","Txt":"CONTINUE"}}}
+,"01_03_13":{"Content":"真不好意思跟她說出事實","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_14","Txt":"CONTINUE"}}}
+,"01_03_14":{"Content":"那是我貪玩把綁在欄杆上的狗鍊解開造成的悲劇","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_15","Txt":"CONTINUE"}}}
+,"01_03_15":{"Content":"從小我就對她優異的天份充滿敬佩","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_16","Txt":"CONTINUE"}}}
+,"01_03_16":{"Content":"不管是學業、音樂、美術、體育","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_17","Txt":"CONTINUE"}}}
+,"01_03_17":{"Content":"她都能勝過同屆甚至是高年級的學生許多","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_18","Txt":"CONTINUE"}}}
+,"01_03_18":{"Content":"說實在的，她一定能以公費出國留學","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_19","Txt":"CONTINUE"}}}
+,"01_03_19":{"Content":"真不知道為甚麼要留在台灣呢?","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_20","Txt":"CONTINUE"}}}
+,"01_03_20":{"Content":"輕瞄了一下附近的男生們","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_21","Txt":"CONTINUE"}}}
+,"01_03_21":{"Content":"每個都以熱烈的目光注視著凜","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_22","Txt":"CONTINUE"}}}
+,"01_03_22":{"Content":"看阿，那就是遠坂同學嗎?","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"同學吵雜聲","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_23","Txt":"CONTINUE"}}}
+,"01_03_23":{"Content":"跟傳聞中的依樣是個美人啊!","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"同學吵雜聲","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_24","Txt":"CONTINUE"}}}
+,"01_03_24":{"Content":"不知道有沒有男朋友?","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"同學吵雜聲","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_25","Txt":"CONTINUE"}}}
+,"01_03_25":{"Content":"真抱歉啊同學們，你們就繼續活在幻想裡吧!","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_26","Txt":"CONTINUE"}}}
+,"01_03_26":{"Content":"凜她雖然大部分時間都是個十全十美的角色","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_27","Txt":"CONTINUE"}}}
+,"01_03_27":{"Content":"但她有一些只有我知道的壞毛病","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_28","Txt":"CONTINUE"}}}
+,"01_03_28":{"Content":"當然這件事我不打算告訴別人","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_29","Txt":"CONTINUE"}}}
+,"01_03_29":{"Content":"況且說了也不會有人相信我吧!","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_30","Txt":"CONTINUE"}}}
+,"01_03_30":{"Content":"咦，沒想到你跟遠坂同學關係挺好的嘛!","Bg":"BG\/13.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_31","Txt":"CONTINUE"}}}
+,"01_03_31":{"Content":"她可是位大名人喔!","Bg":"BG\/13.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_32","Txt":"CONTINUE"}}}
+,"01_03_32":{"Content":"只是小時候就認識了所以比較熟而已。","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_33","Txt":"CONTINUE"}}}
+,"01_03_33":{"Content":"向我搭話的是我現在的室友阿爾敏","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_34","Txt":"CONTINUE"}}}
+,"01_03_34":{"Content":"據說他是私立巨人菁英高級中學畢業的","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_35","Txt":"CONTINUE"}}}
+,"01_03_35":{"Content":"是全台灣頂尖的高中","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_36","Txt":"CONTINUE"}}}
+,"01_03_36":{"Content":"其課業嚴苛導致每學年被留級的人將近五成","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_37","Txt":"CONTINUE"}}}
+,"01_03_37":{"Content":"是個十分嚴格的學校","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_38","Txt":"CONTINUE"}}}
+,"01_03_38":{"Content":"「我身邊還真是些厲害的人呢!」","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"01_03_39","Txt":"CONTINUE"}}}
+,"01_03_39":{"Content":"帶著些許的失落感登大人活動終於開始了","Bg":"BG\/13.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Morning dew.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_01","Txt":"CONTINUE"}}}
+
+
+
+
+
+
+,"02_01_01":{"Content":"上大學還沒幾天","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"flash","Next":{"Next1":{"ID":"02_01_02","Txt":"CONTINUE"}}}
+,"02_01_02":{"Content":"我就難以像高中一樣七點以前就準時起來","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_03","Txt":"CONTINUE"}}}
+,"02_01_03":{"Content":"該說是快速適應大學生活呢","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_04","Txt":"CONTINUE"}}}
+,"02_01_04":{"Content":"還是暑假生活的反作用力","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_05","Txt":"CONTINUE"}}}
+,"02_01_05":{"Content":"抑或是人類懶散怠惰本性的顯露","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_06","Txt":"CONTINUE"}}}
+,"02_01_06":{"Content":"騎著腳踏車，瞇著如新月般的眼睛","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"02_01_07","Txt":"CONTINUE"}}}
+,"02_01_07":{"Content":"我以職業腳踏車手都難以達到的高超技術遊移於車輛間","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_08","Txt":"CONTINUE"}}}
+,"02_01_08":{"Content":"為的只是趕上早八的實驗課","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Event":"gameRace","Next":{"Next1":{"ID":"02_01_09","Txt":"CONTINUE"}}}
+,"02_01_09":{"Content":"如果可以選擇睡眠時間的話，我希望是，一萬年。","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_10","Txt":"CONTINUE"}}}
+,"02_01_10":{"Content":"旁觀路上一對對男女高中生一起走路上學","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_11","Txt":"CONTINUE"}}}
+,"02_01_11":{"Content":"讓我不禁想起從前，我高中時也是如此…","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_12","Txt":"CONTINUE"}}}
+,"02_01_12":{"Content":"旁觀著路上一對對男女高中生一起走路上學","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_01_13","Txt":"CONTINUE"}}}
+,"02_01_13":{"Content":"早起的怒氣值又升高了不少","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_02_01","Txt":"CONTINUE"}}}
+
+,"02_02_01":{"Content":"徘徊於電機系館中庭尋找實驗室","Bg":"BG\/05.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_02_02","Txt":"CONTINUE"}}}
+,"02_02_02":{"Content":"賞玩著L型樓梯旁邊兩隻鹿的詭異交配姿態","Bg":"BG\/05.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_02_03","Txt":"CONTINUE"}}}
+,"02_02_03":{"Content":"我迷路的心情稍微平靜下來","Bg":"BG\/05.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_02_04","Txt":"CONTINUE"}}}
+,"02_02_04":{"Content":"要把牠們擺好嗎?","Bg":"BG\/05.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_02_05","Txt":"還是把牠擺正吧!"}}}
+,"02_02_05":{"Content":"...","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_03_01","Txt":"CONTINUE"}}}
+
+,"02_03_01":{"Content":"將兩隻鹿強行分開後","Bg":"BG\/07.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"flash","Next":{"Next1":{"ID":"02_03_02","Txt":"CONTINUE"}}}
+,"02_03_02":{"Content":"我一邊研究著教室編號的意義，","Bg":"BG\/07.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_03_03","Txt":"CONTINUE"}}}
+,"02_03_03":{"Content":"一邊研究旁邊這台不知是用來發電還是健身的腳踏機器","Bg":"BG\/07.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_03_04","Txt":"CONTINUE"}}}
+,"02_03_04":{"Content":"突然有人向我搭話。","Bg":"BG\/07.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_01","Txt":"CONTINUE"}}}
+
+,"02_04_01":{"Content":"「同學，你迷路了嗎?」","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"02_04_02","Txt":"CONTINUE"}}}
+,"02_04_02":{"Content":"向我搭話的人是現任的系學會長黑雪姬","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_03","Txt":"CONTINUE"}}}
+,"02_04_03":{"Content":"傳聞中是個神祕且不易遇見的學姊","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_04","Txt":"CONTINUE"}}}
+,"02_04_04":{"Content":"但當真正有困難時她總是會出現在身邊","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_05","Txt":"CONTINUE"}}}
+,"02_04_05":{"Content":"對於迷路的我能遇見她就像遇見天使一樣。","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_06","Txt":"CONTINUE"}}}
+,"02_04_06":{"Content":"要向學姊求助嗎?","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_07","Txt":"求助"},"Next2":{"ID":"02_06_01","Txt":"不求助"}}}
+	,"02_04_07":{"Content":"「其實我現在要上實驗課，可是卻找不到實驗教室。」","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Event":"AddLove|3","Next":{"Next1":{"ID":"02_04_09","Txt":"CONTINUE"}}}
+	,"02_04_08":{"Content":"我如此向學姊問道","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_09","Txt":"CONTINUE"}}}
+	,"02_04_09":{"Content":"你是新生吧，直接跟你講教室位置也不太好","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_10","Txt":"CONTINUE"}}}
+	,"02_04_10":{"Content":"我來跟你講解一下教室編號的意義吧!","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_11","Txt":"CONTINUE"}}}
+	,"02_04_11":{"Content":"首先，首兩位數字”92”代表著電機系館","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_12","Txt":"CONTINUE"}}}
+	,"02_04_12":{"Content":"若是其他系館或辦公大樓則有不同數字。","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_13","Txt":"CONTINUE"}}}
+	,"02_04_13":{"Content":"再來，第三個數字代表樓層","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_14","Txt":"CONTINUE"}}}
+	,"02_04_14":{"Content":"1是一樓，2是二樓，以此類推。","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_15","Txt":"CONTINUE"}}}
+	,"02_04_15":{"Content":"10樓則是A，11樓B這樣下去","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_16","Txt":"CONTINUE"}}}
+	,"02_04_16":{"Content":"然後末兩位數字是指該樓層的教室編號。","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_17","Txt":"CONTINUE"}}}
+	,"02_04_17":{"Content":"這樣你應該清楚教室的位置了吧!","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_18","Txt":"CONTINUE"}}}
+	,"02_04_18":{"Content":"聽懂了嗎?","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_19","Txt":"聽懂了"},"Next2":{"ID":"02_04_11","Txt":"再聽一次"}}}
+		,"02_04_19":{"Content":"是的，我大概都了解了。","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_20","Txt":"CONTINUE"}}}
+		,"02_04_20":{"Content":"正當要走上樓梯前往實驗室時，想起來忘記跟學姊慎重道謝","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_05_01","Txt":"CONTINUE"}}}
+
+		,"02_05_01":{"Content":"一回頭，學姊人已經不見了","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"sound\/wind.mp3","Effect":"flash","Next":{"Next1":{"ID":"02_05_02","Txt":"CONTINUE"}}}
+		,"02_05_02":{"Content":"除了風中還殘留著學姊獨特的香味外","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"sound\/wind.mp3","Effect":"","Next":{"Next1":{"ID":"02_05_03","Txt":"CONTINUE"}}}
+		,"02_05_03":{"Content":"一切彷彿沒發生過似的恢復原樣。","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_05_04","Txt":"CONTINUE"}}}
+		,"02_05_04":{"Content":"「還真是個神祕的人啊!各種意義上。」","Bg":"BG\/08.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_05_05","Txt":"CONTINUE"}}}
+		,"02_05_05":{"Content":"看著再次進入交配姿態的兩隻鹿我如此感慨道。","Bg":"BG\/08.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_01","Txt":"CONTINUE"}}}
+
+	,"02_06_01":{"Content":"是嗎?你真的不需要我的幫助的話我就走了喔!","Bg":"BG\/04.jpg","Character":"character\/black\/3.png","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_04_07","Txt":"還是詢問一下好了~"},"Next2":{"ID":"02_06_02","Txt":"懶得理妳!"}}}
+		,"02_06_02":{"Content":"我都說不用了，妳好煩阿!","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"02_06_03","Txt":"CONTINUE"}}}
+		,"02_06_03":{"Content":"當我轉身準備要走時，感覺到一陣風吹過我背後","Bg":"BG\/04.jpg","Character":"NONE","CharacterName":"黑雪學姊","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"sound\/wind.mp3","Effect":"","Event":"AddLove|-5","Next":{"Next1":{"ID":"03_01_01","Txt":"下一個章節"},"Next2":{"ID":"02_01_01","Txt":"再玩一次此章節"},"Next3":{"ID":"01_01_01","Txt":"從第一章開始"}}}
+
+
+
+
+
+
+,"03_01_01":{"Content":"經過一整天的課程後，回到宿舍，趴在自己的電腦桌前逛著FB。","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"sound\/mouse click2.mp3","Effect":"","Next":{"Next1":{"ID":"03_01_02","Txt":"CONTINUE"}}}
+,"03_01_02":{"Content":"果然滑鼠的觸感比原子筆的觸感讓人安心許多","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"sound\/mouse click2.mp3","Effect":"","Next":{"Next1":{"ID":"03_01_03","Txt":"CONTINUE"}}}
+,"03_01_03":{"Content":"對於自我的頹廢已不再否定...","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"sound\/mouse click2.mp3","Effect":"","Next":{"Next1":{"ID":"03_01_04","Txt":"CONTINUE"}}}
+,"03_01_04":{"Content":"我有兩個室友---「阿爾敏」以及「真人」","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_05","Txt":"CONTINUE"}}}
+,"03_01_05":{"Content":"但真人開學後馬上就參加系棒活動，貌似都很晚才會回宿舍","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_06","Txt":"CONTINUE"}}}
+,"03_01_06":{"Content":"而阿爾敏對他的高中母校有著異常的熱愛，不時會朗誦他高中的校歌","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_07","Txt":"CONTINUE"}}}
+,"03_01_07":{"Content":"現在也在持續哼唱著","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_08","Txt":"CONTINUE"}}}
+,"03_01_08":{"Content":"他們是獵物，我們是獵人！","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏歌聲~","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_09","Txt":"CONTINUE"}}}
+,"03_01_09":{"Content":"被踐踏的花朵　無人知曉其名","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏歌聲~","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_10","Txt":"CONTINUE"}}}
+,"03_01_10":{"Content":"家畜的安寧　虛偽的繁榮","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏歌聲~","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_11","Txt":"CONTINUE"}}}
+,"03_01_11":{"Content":"一抹血紅射穿黃昏　紅蓮的弓矢","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏歌聲~","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_12","Txt":"CONTINUE"}}}
+,"03_01_12":{"Content":"............","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_13","Txt":"CONTINUE"}}}
+,"03_01_13":{"Content":"聽起來還真是不錯的校歌啊!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"flash","Next":{"Next1":{"ID":"03_01_14","Txt":"CONTINUE"}}}
+,"03_01_14":{"Content":"此時FB班版上有了過幾天會有社團博覽會的消息","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_15","Txt":"CONTINUE"}}}
+,"03_01_15":{"Content":"但是我還有微積分、普物、計概等科目要讀","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_16","Txt":"CONTINUE"}}}
+,"03_01_16":{"Content":"到底要不要去社博看看呢?","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_17","Txt":"去看看吧!"},"Next2":{"ID":"05_01_01","Txt":"窩在宿舍最舒服了!"}}}
+
+	,"03_01_17":{"Content":"果然大學生就是要參加社團阿!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_18","Txt":"CONTINUE"}}}
+	,"03_01_18":{"Content":"要不要邀請阿爾敏一起去呢?","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_19","Txt":"問問看吧!"},"Next2":{"ID":"03_01_24","Txt":"不管他"},"Next3":{"ID":"03_01_25","Txt":"跟他尬歌!"}}}
+
+		,"03_01_19":{"Content":"阿爾敏，過幾天的社博要一起去看看嗎?","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_20","Txt":"CONTINUE"}}}
+		,"03_01_20":{"Content":"他們是獵物，我們是獵人！","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏歌聲","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_21","Txt":"CONTINUE"}}}
+		,"03_01_21":{"Content":"............","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/titan.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_22","Txt":"CONTINUE"}}}
+		,"03_01_22":{"Content":"他沒聽到，算了!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_23","Txt":"CONTINUE"}}}
+		,"03_01_23":{"Content":"不過他應該會加合唱社吧!...","Bg":"BG\/14.jpg","Character":"我","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_01","Txt":"上床睡覺~"}}}
+
+		,"03_01_24":{"Content":"他好像忙著唱歌，還是不要打擾他好了","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_01","Txt":"上床睡覺~"}}}
+
+		,"03_01_25":{"Content":"別看我這樣，我小學音樂比賽可是有得獎的!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_26","Txt":"CONTINUE"}}}
+		,"03_01_26":{"Content":"我決定將小學音樂比賽唱過的歌取其精華，以達到巔峰的境界","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_27","Txt":"CONTINUE"}}}
+		,"03_01_27":{"Content":"我有一隻小毛驢我從來也不騎~","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我的歌聲","BGM":"BGM\/Epic Slam Guy.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_28","Txt":"CONTINUE"}}}
+		,"03_01_28":{"Content":"牠又沒眼睛，又沒耳朵，賣五毛你還得給我一塊!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我的歌聲","BGM":"BGM\/Epic Slam Guy.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_29","Txt":"CONTINUE"}}}
+		,"03_01_29":{"Content":"哥哥爸爸真偉大！名譽照我家，頭戴著金絲，身穿花花衣","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我的歌聲","BGM":"BGM\/Epic Slam Guy.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_30","Txt":"CONTINUE"}}}
+		,"03_01_30":{"Content":"當我們同在一起，一起去捉泥鰍!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我的歌聲","BGM":"BGM\/Epic Slam Guy.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"03_01_31","Txt":"CONTINUE"}}}
+		,"03_01_31":{"Content":"唱完之後阿爾敏以奇異的眼神看著我","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"NONE","BGM":"BGM\/Epic Slam Guy.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_32","Txt":"CONTINUE"}}}
+		,"03_01_32":{"Content":"..............","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏","BGM":"BGM\/Epic Slam Guy.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_33","Txt":"CONTINUE"}}}
+		,"03_01_33":{"Content":"真有你的，沒想到你唱歌居然這麼厲害!","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_34","Txt":"CONTINUE"}}}
+		,"03_01_34":{"Content":"我可是有練過的!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_35","Txt":"CONTINUE"}}}
+		,"03_01_35":{"Content":"你要不要跟我一起去社團博覽會看看啊?唱歌方面的社團一定會很歡迎你~","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_36","Txt":"一起去吧!"},"Next2":{"ID":"03_01_39","Txt":"打槍他!"}}}
+
+			,"03_01_36":{"Content":"恩，好啊!到時候一起去看看吧!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_37","Txt":"CONTINUE"}}}
+			,"03_01_37":{"Content":"嶄露完歌喉後，我帶著滿足感上床睡覺。","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_38","Txt":"CONTINUE"}}}
+			,"03_01_38":{"Content":"今天的世界依然和平~","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_01","Txt":"CONTINUE"}}}
+
+			,"03_01_39":{"Content":"我比較喜歡自己一個人逛，況且我應該不會參加音樂社團","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_40","Txt":"CONTINUE"}}}
+			,"03_01_40":{"Content":"真可惜，如果你去參加合唱社我一定會去笑ㄋ一..喔不對，一定會替你加油的!","Bg":"BG\/14.jpg","Character":"character\/armin\/1.png","CharacterName":"阿爾敏","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"03_01_41","Txt":"CONTINUE"}}}
+			,"03_01_41":{"Content":"我剛剛是不是聽到了甚麼? 算了，還是去睡覺吧!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_01","Txt":"下一個章節"},"Next2":{"ID":"03_01_01","Txt":"再玩一次此章節"},"Next3":{"ID":"01_01_01","Txt":"從第一章開始"}}}
+
+
+			
+			
+			
+
+
+
+,"04_01_01":{"Content":"...","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_02","Txt":"CONTINUE"}}}
+,"04_01_02":{"Content":"今天雖然是假日，但為了趕完我的普物還有微積分作業，我大清早就起來了","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_03","Txt":"CONTINUE"}}}
+,"04_01_03":{"Content":"去買個早餐吃吧!但要吃哪一家呢?","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_04","Txt":"福州包"},"Next2":{"ID":"04_01_05","Txt":"系館前無名餐車"},"Next3":{"ID":"04_01_06","Txt":"勝利早餐店"}}}
+
+	,"04_01_04":{"Content":"福州包早上沒開吧!再想想~","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"04_01_04","Txt":"福州包"},"Next2":{"ID":"04_01_05","Txt":"系館前無名餐車"},"Next3":{"ID":"04_01_06","Txt":"勝利早餐店"}}}
+	,"04_01_05":{"Content":"系館前無名餐車昨天才吃!選別家吧~","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"04_01_04","Txt":"福州包"},"Next2":{"ID":"04_01_05","Txt":"系館前無名餐車"},"Next3":{"ID":"04_01_06","Txt":"勝利早餐店"}}}
+	,"04_01_06":{"Content":"恩，就吃勝利早餐吧!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_01","Txt":"走吧!"}}}
+
+,"04_02_01":{"Content":"到了勝利早餐店，選個餐點吧!","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Event":"gameFlip","Next":{"Next1":{"ID":"04_02_02","Txt":"CONTINUE"}}}
+,"04_02_02":{"Content":"請問你要打包還外帶?","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"老闆娘","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_03","Txt":"CONTINUE"}}}
+,"04_02_03":{"Content":"蛤?","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_04","Txt":"CONTINUE"}}}
+,"04_02_04":{"Content":"你要打包還外帶?","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"老闆娘","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_05","Txt":"CONTINUE"}}}
+,"04_02_05":{"Content":"沒有內用這個選項嗎?","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_06","Txt":"CONTINUE"}}}
+,"04_02_06":{"Content":"「喔，不好意思，請問你要內用還外帶?」老闆娘道歉道","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"老闆娘","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_07","Txt":"CONTINUE"}}}
+,"04_02_07":{"Content":"這時我也沒有打算苛責她的不是，畢竟早上人總是比較疲憊會說錯話。","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_08","Txt":"CONTINUE"}}}
+,"04_02_08":{"Content":"我要打包!!!","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_09","Txt":"CONTINUE"}}}
+,"04_02_09":{"Content":".....","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"老闆娘","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_10","Txt":"CONTINUE"}}}
+,"04_02_10":{"Content":"...........","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"老闆娘","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_02_11","Txt":"CONTINUE"}}}
+,"04_02_11":{"Content":"..................","Bg":"BG\/29.jpg","Character":"NONE","CharacterName":"老闆娘","BGM":"BGM\/little burster2.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_01","Txt":"CONTINUE"}}}
+
+
+,"04_03_01":{"Content":"...","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_02","Txt":"CONTINUE"}}}
+,"04_03_02":{"Content":"買個早餐還真是累人阿~回到宿舍享用我這得來不易的早餐","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_03","Txt":"CONTINUE"}}}
+,"04_03_03":{"Content":"室友們都出門後，我開始寫我這堆積如山的作業。","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_04","Txt":"CONTINUE"}}}
+,"04_03_04":{"Content":"突然間，我的手機響了!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"04_03_05","Txt":"CONTINUE"}}}
+,"04_03_05":{"Content":"響了，它響了!身為一個魯蛇假日居然會有人打給我讓我難掩驚訝的表情!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_06","Txt":"CONTINUE"}}}
+,"04_03_06":{"Content":"看到來電顯示是我妹妹小琪後，我快速接起電話","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_07","Txt":"CONTINUE"}}}
+,"04_03_07":{"Content":"欸...","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_08","Txt":"CONTINUE"}}}
+,"04_03_08":{"Content":"哈囉!是老哥嗎?大學生活過得如何啊?","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_09","Txt":"CONTINUE"}}}
+,"04_03_09":{"Content":"恩，還可以，課業也沒想像中那麼繁忙","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_10","Txt":"CONTINUE"}}}
+,"04_03_10":{"Content":"那就是很閒囉!我現在去拜訪你喔!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_11","Txt":"CONTINUE"}}}
+,"04_03_11":{"Content":"...其實我有點作業要做，能不能改天...","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_12","Txt":"CONTINUE"}}}
+,"04_03_12":{"Content":"突然聽到敲門聲讓我一顫，開門後老妹已經在門口了!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_13","Txt":"CONTINUE"}}}
+,"04_03_13":{"Content":"噹噹啦!看見可愛的妹妹小琪來造訪有沒有覺得開心啊!","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_14","Txt":"CONTINUE"}}}
+,"04_03_14":{"Content":"...如果能早個一兩天告訴我，而不是5秒的話，我也許還能接受~","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_15","Txt":"CONTINUE"}}}
+,"04_03_15":{"Content":"話說，怎麼沒看到遠坂姊阿!她有事出去嗎?","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_16","Txt":"CONTINUE"}}}
+,"04_03_16":{"Content":"不不不~這裡是男生宿舍她本來就不能來的吧!要找她去女生宿舍那裏找@@","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_17","Txt":"CONTINUE"}}}
+,"04_03_17":{"Content":"喔，是這樣喔~","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_18","Txt":"CONTINUE"}}}
+,"04_03_18":{"Content":"本來就是如此吧!說起來，假日出來閒晃不會影響到你高中的課業嗎?\n明年要換你考大學了吧!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_19","Txt":"CONTINUE"}}}
+,"04_03_19":{"Content":"完全不會喔!課程實在太簡單了，上課稍微聽一下就好了~","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_20","Txt":"CONTINUE"}}}
+,"04_03_20":{"Content":"真不知道人類這種生物為甚麼連這麼簡單的東西也要做為課程來教學~","Bg":"BG\/14.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_21","Txt":"CONTINUE"}}}
+,"04_03_21":{"Content":"剛剛那句發言需要為全部學生、老師，以及我脆弱的心靈道歉吧!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_22","Txt":"CONTINUE"}}}
+,"04_03_22":{"Content":"再怎麼說我也是拚死拚活才考上成大電機的。","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_23","Txt":"CONTINUE"}}}
+,"04_03_23":{"Content":"不過看她每次模擬考成績都是全國第一，也許我的擔心是多餘的吧!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_24","Txt":"CONTINUE"}}}
+,"04_03_24":{"Content":"說起來，妳到底是為甚麼來的，總不會只是來嘲諷我的吧~","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_25","Txt":"CONTINUE"}}}
+,"04_03_25":{"Content":"我是來看看老哥你的生活環境的，身為一個可愛的妹妹，會擔心老哥是正常的吧!","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_26","Txt":"CONTINUE"}}}
+,"04_03_26":{"Content":"啊!剛剛那句話小琪的得分很高喔!","Bg":"BG\/14.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_27","Txt":"CONTINUE"}}}
+,"04_03_27":{"Content":"好啦!好啦!如你所見，我宿舍的環境優美景色頗佳，空氣清新燈光充足","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_28","Txt":"CONTINUE"}}}
+,"04_03_28":{"Content":"可是小琪我覺得有很多地方都不太完善欸，比如說外人能輕易進入宿舍內，這樣是不好的吧!","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_29","Txt":"CONTINUE"}}}
+,"04_03_29":{"Content":"妳也知道這樣是不好的阿!那妳還直接闖進來","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_30","Txt":"CONTINUE"}}}
+,"04_03_30":{"Content":"宿舍已經檢查完畢了，接下來帶我看看你系館的安全環境吧!","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_31","Txt":"CONTINUE"}}}
+,"04_03_31":{"Content":"老哥，你可以帶我去系館看看嗎?","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_32","Txt":"帶她去看看"},"Next2":{"ID":"04_03_35","Txt":"拒絕她"},"Next3":{"ID":"04_03_44","Txt":"說討厭她"}}}
+    ,"04_03_32":{"Content":"當然好啊，雖然還有功課要寫，不過解決小琪的擔憂才是一個稱職哥哥該做的","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Event":"AddLove|8","Next":{"Next1":{"ID":"04_03_33","Txt":"CONTINUE"}}}
+    ,"04_03_33":{"Content":"啊!剛剛那句話我的得分很高喔!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_34","Txt":"CONTINUE"}}}
+    ,"04_03_34":{"Content":"...","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Event":"AddLove|-2","Next":{"Next1":{"ID":"04_04_01","Txt":"前往系館"}}}
+
+    ,"04_03_35":{"Content":"我還有些作業要做，沒辦法陪你去!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Event":"AddLove|-3","Next":{"Next1":{"ID":"04_03_36","Txt":"CONTINUE"}}}
+    ,"04_03_36":{"Content":"話一說完，我彷彿聽到了小琪的哽咽聲","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_37","Txt":"CONTINUE"}}}
+    ,"04_03_37":{"Content":"小琪我只是想多了解一點哥哥而已","Bg":"BG\/14.jpg","Character":"character\/kirin\/3.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_38","Txt":"CONTINUE"}}}
+    ,"04_03_38":{"Content":"你上大學後就變得不常見面了...我想要有更多時間能和哥哥再一起...","Bg":"BG\/14.jpg","Character":"character\/kirin\/3.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_39","Txt":"CONTINUE"}}}
+    ,"04_03_39":{"Content":"雖然知道她是裝哭，不過看這樣子好像是我在欺負她，心中還是過意不去","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_40","Txt":"CONTINUE"}}}
+    ,"04_03_40":{"Content":"好啦!我知道了啦，我帶你去系館看看好了!你就別再裝哭了!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_41","Txt":"CONTINUE"}}}
+    ,"04_03_41":{"Content":"真是的，你早點答應我就好了嘛!","Bg":"BG\/14.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_42","Txt":"CONTINUE"}}}
+    ,"04_03_42":{"Content":"妳果然是在裝哭啊!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_43","Txt":"CONTINUE"}}}
+    ,"04_03_43":{"Content":"欸嘿嘿...","Bg":"BG\/14.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Daydream cafe Solo Piano Ver.mp3","Sound":"NONE","Effect":"","Event":"AddLove|5","Next":{"Next1":{"ID":"04_04_01","Txt":"前往系館"}}}
+   
+    ,"04_03_44":{"Content":"妳好煩人啊!快點回家不要吵我啦!真是討厭!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"小琪","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Event":"AddLove|-5","Next":{"Next1":{"ID":"04_03_45","Txt":"CONTINUE"}}}
+    ,"04_03_45":{"Content":"話一說完，我聽到了小琪的哽咽聲","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_46","Txt":"CONTINUE"}}}
+    ,"04_03_46":{"Content":"小琪我只是想多了解一點哥哥而已","Bg":"BG\/14.jpg","Character":"character\/kirin\/3.png","CharacterName":"小琪","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_47","Txt":"CONTINUE"}}}
+    ,"04_03_47":{"Content":"你上大學後就變得不常見面了...我想要有更多時間能和哥哥再一起...","Bg":"BG\/14.jpg","Character":"character\/kirin\/3.png","CharacterName":"小琪","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_48","Txt":"CONTINUE"}}}
+    ,"04_03_48":{"Content":"哥哥什麼的最討厭了!!!","Bg":"BG\/14.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"screenshake","Next":{"Next1":{"ID":"04_03_49","Txt":"CONTINUE"}}}
+    ,"04_03_49":{"Content":"說完她就直接跑掉了，連追上去的時間都沒有","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"小琪","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Event":"AddLove|-5","Next":{"Next1":{"ID":"04_03_50","Txt":"CONTINUE"}}}
+    ,"04_03_50":{"Content":"我剛剛是不是說了惹她討厭的話了啊!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_03_51","Txt":"CONTINUE"}}}
+    ,"04_03_51":{"Content":"早知道先設好儲存點...","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"05_01_01","Txt":"CONTINUE"}}}
+    ,"04_03_52":{"Content":"...","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/across a time.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_01_01","Txt":"重新玩"}}}
+	
+	
+
+,"04_04_01":{"Content":"前往系館途中...","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_02","Txt":"CONTINUE"}}}
+,"04_04_02":{"Content":"到達系館後，我帶著她到處看看系館的安全設施","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_03","Txt":"CONTINUE"}}}
+,"04_04_03":{"Content":"雖然說我自己對系館有甚麼安全設備也不太了解就是了~","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_04","Txt":"CONTINUE"}}}
+,"04_04_04":{"Content":"哇! 哥~你們系館好高喔! 上面還有網子欸","Bg":"BG\/03.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_05","Txt":"CONTINUE"}}}
+,"04_04_05":{"Content":"恩，聽說很久以前有人從上面跳下來，所以才架設了網子。","Bg":"BG\/19.jpg","Character":"character\/kirin\/1.png","CharacterName":"我","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_06","Txt":"CONTINUE"}}}
+,"04_04_06":{"Content":"你就別嚇我了啦! 就算是百貨公司還是麥當勞，只要是有一定高度的地方一定會裝網子吧!","Bg":"BG\/19.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_07","Txt":"CONTINUE"}}}
+,"04_04_07":{"Content":"從上面看下去，人類就如螞蟻般苗小欸","Bg":"BG\/24.jpg","Character":"character\/kirin\/4.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_08","Txt":"CONTINUE"}}}
+,"04_04_08":{"Content":"這個位置讓我感覺魔力提升了不少~","Bg":"BG\/24.jpg","Character":"character\/kirin\/4.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_09","Txt":"CONTINUE"}}}
+,"04_04_09":{"Content":"隱藏著黑暗力量的鑰匙啊...","Bg":"BG\/24.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_10","Txt":"CONTINUE"}}}
+,"04_04_10":{"Content":"在我面前顯示你真正的力量...","Bg":"BG\/24.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_11","Txt":"CONTINUE"}}}
+,"04_04_11":{"Content":".與你定結契約的小琪 現在命令你 ！","Bg":"BG\/24.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_12","Txt":"CONTINUE"}}}
+,"04_04_12":{"Content":"封印解除！！            ........啊~","Bg":"BG\/24.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_13","Txt":"敲她的頭"}}}
+,"04_04_13":{"Content":"好痛啊~ 幹嘛打我啊!","Bg":"BG\/24.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_14","Txt":"CONTINUE"}}}
+,"04_04_14":{"Content":"別再像小孩子了! 旁邊有人看著，我都覺得害羞了!","Bg":"BG\/24.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_15","Txt":"CONTINUE"}}}
+,"04_04_15":{"Content":"欸嘿嘿...","Bg":"BG\/24.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_16","Txt":"CONTINUE"}}}
+,"04_04_16":{"Content":"诶，每一層樓電梯旁邊都會有樓層的平面配置圖欸，好貼心喔~","Bg":"BG\/20.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_17","Txt":"CONTINUE"}}}
+,"04_04_17":{"Content":"真的欸，我都沒發現!","Bg":"BG\/20.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_18","Txt":"CONTINUE"}}}
+,"04_04_18":{"Content":"哥哥你太不細心了啦!","Bg":"BG\/20.jpg","Character":"character\/kirin\/5.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_19","Txt":"CONTINUE"}}}
+,"04_04_19":{"Content":"你看，每一層樓都有設置至少3個滅火器以及1個消防栓欸","Bg":"BG\/21.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_20","Txt":"CONTINUE"}}}
+,"04_04_20":{"Content":"對於失火時能夠做出最快的應對","Bg":"BG\/28.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_21","Txt":"CONTINUE"}}}
+,"04_04_21":{"Content":"說道滅火器，我考考哥哥你喔!","Bg":"BG\/27.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_22","Txt":"CONTINUE"}}}
+,"04_04_22":{"Content":"你知道滅火器要怎麼用嗎?","Bg":"BG\/27.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_23","Txt":"壓壓拉"},"Next2":{"ID":"04_04_24","Txt":"拉拉壓"},"Next3":{"ID":"04_04_25","Txt":"上下左右AB"}}}
+    ,"04_04_23":{"Content":"你答錯了喔!","Bg":"BG\/27.jpg","Character":"character\/kirin\/5.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Event":"AddLove|-2","Next":{"Next1":{"ID":"04_04_26","Txt":"CONTINUE"}}}
+    
+	,"04_04_24":{"Content":"真不愧是兄長大人!","Bg":"BG\/27.jpg","Character":"character\/kirin\/2.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Event":"AddLove|5","Next":{"Next1":{"ID":"04_04_26","Txt":"CONTINUE"}}}
+    
+	,"04_04_25":{"Content":"到底要怎樣才能回答出這個答案啊?!","Bg":"BG\/27.jpg","Character":"character\/kirin\/5.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Event":"AddLove|-3","Next":{"Next1":{"ID":"04_04_26","Txt":"我真廢啊!"}}}
+
+,"04_04_26":{"Content":"首先第一個「拉」是拉開安全插銷","Bg":"BG\/27.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_27","Txt":"CONTINUE"}}}
+,"04_04_27":{"Content":"第二個「拉」是拉出並握住皮管後朝向火源","Bg":"BG\/27.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_28","Txt":"CONTINUE"}}}
+,"04_04_28":{"Content":"最後「壓」是用力壓下手壓板","Bg":"BG\/27.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_29","Txt":"CONTINUE"}}}
+,"04_04_29":{"Content":"好啦好啦! 我的妹妹真聰明~","Bg":"BG\/27.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_30","Txt":"CONTINUE"}}}
+,"04_04_30":{"Content":"欸~為了增加緊急情況時的逃生速度，到處都有標示逃生方向","Bg":"BG\/22.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_31","Txt":"CONTINUE"}}}
+,"04_04_31":{"Content":"而且還有系館還有兩條樓梯","Bg":"BG\/18.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_32","Txt":"CONTINUE"}}}
+,"04_04_32":{"Content":"這樣一來，疏散人潮的速度也會快很多","Bg":"BG\/25.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_33","Txt":"CONTINUE"}}}
+,"04_04_33":{"Content":"各個地方都有緊急照明燈，對於停電的應對也是相當到位","Bg":"BG\/16.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/Yosuga no Sora.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_34","Txt":"CONTINUE"}}}
+,"04_04_34":{"Content":"我們回到了一樓，看來小琪對系館的安全十分滿意","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_35","Txt":"CONTINUE"}}}
+,"04_04_35":{"Content":"今天真是快樂的一天啊","Bg":"BG\/03.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Event":"AddLove|3","Next":{"Next1":{"ID":"04_04_36","Txt":"CONTINUE"}}}
+,"04_04_36":{"Content":"既然已經確認哥哥附近環境的安全，我也差不多要走了!","Bg":"BG\/03.jpg","Character":"character\/kirin\/1.png","CharacterName":"小琪","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_37","Txt":"CONTINUE"}}}
+,"04_04_37":{"Content":"這樣啊! 妳接下來要去哪裡啊?","Bg":"BG\/03.jpg","Character":"NONE","CharacterName":"我","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_38","Txt":"CONTINUE"}}}
+,"04_04_38":{"Content":"我有些東西想要問一下遠坂姐姐，要去她那裏一下。","Bg":"BG\/03.jpg","Character":"character\/kirin\/4.png","CharacterName":"小琪","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"04_04_39","Txt":"CONTINUE"}}}
+,"04_04_39":{"Content":"送小琪到女生宿舍後，我也回到我的寢室。","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"flash","Next":{"Next1":{"ID":"04_04_40","Txt":"CONTINUE"}}}
+,"04_04_40":{"Content":"繼續與我趕不完的作業拼命!!!","Bg":"BG\/14.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"05_01_01","Txt":"下一個章節"},"Next2":{"ID":"04_01_01","Txt":"再玩一次此章節"},"Next3":{"ID":"01_01_01","Txt":"從第一章開始"}}}
+
+
+
+
+
+
+
+
+
+,"05_01_01":{"Content":"敬請期待!","Bg":"BG\/00.jpg","Character":"NONE","CharacterName":"NONE","BGM":"BGM\/little burster1.mp3","Sound":"NONE","Effect":"","Next":{"Next1":{"ID":"05_01_01","Txt":"NONE"}}}
+
+
+
+}

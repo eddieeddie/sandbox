@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang = "jp">
+	<head>
+	<meta charset="utf-8">
+	<title>ご案内は彼女ですか？？</title>
+		<style>
+			@import url(HeadTail.css);
+			@import url(Shop_main.css);
+		</style>
+	</meta>
+	<script src="Shop_Global_Variable.js"></script>
+	<script src="stringtable.js"></script>
+	<script src="cookie.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<script src="LangChange.js"></script>
+	<script src="Shop.js"></script>
+	<script src="Shop_login.js"></script>
+	<script src="Shop_BtnEffect.js"></script>
+	</head>
+	<body>
+	    <div class="all">
+		    <div class="HEAD">
+		    	<div id = "Headbg"><img src="index/pic/Headbg.png" width="1920" height="100"   alt="Contract_txt"></div>
+			    <div class="Copyright">
+				    <a href="index.html">
+				      	<div id="Copyright_pic"><img src="index/pic/Copyright_pic.png" width="100" height="100"   alt="Copyright_pic"></div>
+				      	<div id="Copyright_txt"><img id="Copyright_txt_img" src="index/pic/Copyright_txt.png" width="200" height="100"   alt="Copyright_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Register">
+				    <a href="Register.html">
+				      	<div id="Register_pic"><img src="index/pic/Register_pic.png" width="100" height="100"   alt="Register_pic"></div>
+				      	<div id="Register_txt"><img id="Register_txt_img" src="index/pic/Register_txt.png" width="200" height="100"   alt="Register_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Shop">
+				    <a href="Shop.html">
+				      	<div id="Shop_pic"><img src="index/pic/Shop_pic.png" width="100" height="100"   alt="Shop_pic"></div>
+				      	<div id="Shop_txt"><img id="Shop_txt_img" src="index/pic/Shop_txt.png" width="200" height="100"   alt="Shop_txt"></div>
+				    </a>
+			    </div>
+			    <div class="Lang">
+				    <a href="">
+				      	<div id="CHT"><img id="CHT_p" src="index/pic/CHT.png" width="100" height="100"   alt="CHT"></div>
+				      	<div id="JPN"><img id="JPN_p" src="index/pic/JPN.png" width="100" height="100"   alt="JPN"></div>
+				    </a>
+			    </div>
+		    </div>
+		    
+			<div class ="wrap">
+			    <div class ="MAIN">
+				    <div id ="Theme">
+						<b><font size="7" color="#808BB6" id="Title" face="微軟正黑體">ストア</font></b>
+					</div>
+					<div id ="LOG">
+						<b><font size="7" color="#808BB6" id="logid" face="微軟正黑體">ログイン</b></font></b>
+						<b><div id="アカウントdiv"><font size="3" color="#808BB6" id="accountWord" face="微軟正黑體"><br>アカウント</font></b><input type="text" id="account"></input></div>
+						<b><div id="パスワードdiv"><font size="3" color="#808BB6" id="passwdWord" face="微軟正黑體"><br>パスワード</font></b><input type="password" id="passwd"></input></div>
+						<br><img id="deliverbtn" src="Shop/CheckoutBtnNormal.png" width="" height=""   alt="">
+					</div>
+					<div id ="UserInfo">
+						<font size="5" color="#ff9966"><p id="ID" face="微軟正黑體"></p></font>
+						<font size="5" color="#ff99cc"><p id="Money" face="微軟正黑體"></p></font>
+					</div>
+				    <div id ="ItemList"></div>
+				    <div id ="Cost">
+				    </div>
+				    <div id ="Digits">
+				    	<img id="digit0" src="Shop/pic/number/0.png" width="" height=""   alt="">
+				    	<img id="digit1" src="Shop/pic/number/0.png" width="" height=""   alt="">
+				    	<img id="digit2" src="Shop/pic/number/0.png" width="" height=""   alt="">
+				    	<img id="digit3" src="Shop/pic/number/0.png" width="" height=""   alt="">
+				    	<img id="digit4" src="Shop/pic/number/0.png" width="" height=""   alt="">
+				    	<img id="digit5" src="Shop/pic/number/0.png" width="" height=""   alt="">
+				    </div>
+				    <div id ="Checkout">
+				    	<img id="checkoutbtn" src="Shop/CheckoutBtnNormal.png" width="" height=""   alt="">
+				    </div>
+			    	<div id="Play">
+				   		<a href="Game.html"><img id="play_btn" src="index/pic/Play_ready.png"  width="300" height="300"   alt="Play_ready"></a>
+				    </div>
+				    <div id ="Content">
+						<b><font size="6" face="微軟正黑體" color="red" id="内容">期間限定、発売中！！</font></b>
+					</div>
+				    <div id ="Content_pic">
+						<img src="" width="" height=""   alt="">
+					</div>
+			    </div>
+		    </div>
+
+		    <div class="TAIL">
+		    	<div id = "Tailbg"><img src="index/pic/Headbg.png" width="1920" height="100"   alt="Contract_txt"></div>
+		    	<div class="About">
+				      	<a href="About.html"><img src="index/pic/About_pic.png" width="100" height="100"   alt="About_pic"></a>
+				      	<a href="About.html"><img id="About_txt_img" src="index/pic/About_txt.png" width="200" height="100"   alt="About_txt"></a>
+				    </a>
+			    </div>
+			    <div class="Contract">
+				      	<a href="Contract.html"><img src="index/pic/Contract_pic.png" width="100" height="100"   alt="Contract_pic"></a>
+				      	<a href="Contract.html"><img id="Contract_txt_img" src="index/pic/Contract_txt.png" width="200" height="100"   alt="Contract_txt"></a>
+				    </a>
+			    </div>
+			    <div class="Help">
+				      	<a href="Help.html"><img src="index/pic/Help_pic.png" width="100" height="100"   alt="Help_pic"></a>
+				      	<a href="Help.html"><img id="Help_txt_img" src="index/pic/Help_txt.png" width="200" height="100"   alt="Help_txt"></a>
+				    </a>
+			    </div>
+			    <div class="Career">
+				    <a href="Career.html"><img src="index/pic/Career_pic.png" width="100" height="100"   alt="Career_pic"></a>
+				    <a href="Career.html"><img id="Career_txt_img" src="index/pic/Career_txt.png" width="200" height="100"   alt="Career_txt"></a>
+			    </div>
+		    </div>
+		</div>
+	
+	</body>
+</html>

@@ -1,0 +1,198 @@
+﻿			 .wrap {
+			     height: 4430px;
+			 }
+		.GAME{/*width="1024"*/
+		    display: inline;
+		    position: absolute;
+		    top: 150px;
+			left: 300px;
+		    width: 1620px;
+		}
+			#LOGO{
+			    display: inline;
+			    position: absolute;
+			    top: 5px;
+			    left: 1080px;
+			}
+			#Txt{
+			    display: inline;
+			    position: absolute;
+			    top: 0px;
+			    left: 200px;
+			}
+			#Game_cover{
+			    display: inline;
+			    position: absolute;
+			    top: 150px;
+			    left: 0px;
+			}
+			#Play{
+			    display: inline;
+			    position: absolute;
+			    top: 570px;
+			    left: 610px;
+			}
+			#Register{
+			    display: inline;
+			    position: absolute;
+			    top: 570px;
+			    left: 110px;
+			}
+			#占い{
+			    display: inline;
+			    position: absolute;
+			    top: 200px;
+			    left: 1050px;
+			}
+				#カップ{
+				    display: inline;
+				    position: absolute;
+			        opacity: 100;
+		      	    left: 20px;
+		    	    top: 140px;
+				}
+				#占い結果{
+			        display: inline;
+			        position: absolute;
+		    	    left: 0px;
+		    	    top: 150px;
+			        opacity: 0;
+				}
+				#占い結果文字{
+				    display: inline;
+				    position: absolute;
+				    left: 40px;
+				    top: 300px;
+				    opacity: 0;
+				}
+			#Like{
+			    display: inline;
+			    position: absolute;
+			    top: 850px;
+			    left: 25px;
+			}
+				#拍手{
+				    display: inline;
+				    position: absolute;
+				    top:  70px;
+				}
+				#拍手数{
+				    display: inline;
+				    position: absolute;
+				    left: 90px;
+				    top:  85px;
+				    font-size: 36px;
+				    color:#808BB6;
+				}
+		.INFO{/*width="1280"*/
+		    display: inline;
+		    position: absolute;
+		    top: 1200px;
+			left: 172px;
+		    width: 1748px;
+		}
+			#TXT_ゲーム紹介{
+			    display: inline;
+			    position: absolute;
+			    left: 200px;
+		   		top: 0px;
+			}
+			#INFO1{
+			    display: inline;
+			    position: absolute;
+			    left: 0px;
+		   		top: 150px;
+			}
+			#TXT_キャラ紹介{
+			    display: inline;
+			    position: absolute;
+			    left: 200px;
+		    	top: 800px;
+			}
+			#INFO2{
+			    display: inline;
+			    position: absolute;
+			    left: 0px;
+		   		top: 900px;
+			}
+		.CHATROOM{/*width="1024"*/
+		    display: inline;
+		    position: absolute;
+		    top: 2950px;
+			left: 700px;
+		    width: 1220px;
+		}
+			#contents{
+			    height:600px;
+			    width :400px;
+				overflow-y: scroll;
+			  	z-index:2;
+			}
+			#note_chat{
+			    display: inline;
+			    position: absolute;
+			    left: -40px;
+			    top: -80px;
+			  	z-index:1;
+			}
+			#note_kokoa{
+			    display: inline;
+			    position: absolute;
+			    left: -270px;
+			    top: 170px;
+			  	z-index:1;
+			}
+			#deliver{
+			    display: inline;
+			    position: absolute;
+			    left: 50px;
+			    top:  750px;
+			  	z-index:2;
+			}
+		    #dia{
+		      opacity: 0;
+		      display: inline;
+		      position: absolute;
+	    	  left: -350px;
+	    	  top: 180px;
+			  z-index:4;
+		    }
+	    
+	    
+		.GAME_TAIL{/*width="1024"*/
+		    display: inline;
+		    position: absolute;
+		    top: 3800px;
+			left: 300px;
+		    width: 1620px;
+		}
+			#Txt_TAIL{
+			    display: inline;
+			    position: absolute;
+			    top: 0px;
+			    left: 200px;
+			}
+			#Game_cover_TAIL{
+			    display: inline;
+			    position: absolute;
+			    top: 150px;
+			    left: 0px;
+			}
+			#Play_TAIL{
+			    display: inline;
+			    position: absolute;
+			    top: 570px;
+			    left: 610px;
+			}
+			#Register_TAIL{
+			    display: inline;
+			    position: absolute;
+			    top: 570px;
+			    left: 110px;
+			}
+			#カップ:hover{
+		    opacity: 1;
+		    }
+		    #カップ{
+		    opacity: 0.6;
+		    }
